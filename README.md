@@ -21,7 +21,7 @@ pip3 install -r requirements.txt
 ```
 
 ## File structure
-
+```
 .
 +-- static
 |   +-- css
@@ -33,6 +33,7 @@ pip3 install -r requirements.txt
 +-- myapp.py
 +-- Procfile
 +-- requirements
+```
 
 ## Deployment
 
