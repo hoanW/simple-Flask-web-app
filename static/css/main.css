@@ -1,5 +1,5 @@
 body {
-  background-color: #1b262c;
+  background-color: #242526;
   margin-top: 100px;
   margin-left: 10%;
   margin-right: 10%;
@@ -56,9 +56,21 @@ a:focus {
   margin-top: 60px;
 }
 
-.social-icon {
-  margin-top: 60px;
-  padding-right: 25px;
-  float: left;
-  border-bottom: 0px none #000;
+.socail-icon {
+  text-align: center;
 }
+
+.social-icon ul {
+  list-style: none;
+  float: right;
+}
+
+.social-icon ul li {
+  float: left;
+  font-size: 30px;
+  padding-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  list-style-type: none;
+}
+

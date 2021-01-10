@@ -1,65 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
-    <title>Hoan Vu</title>
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+      <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css>
+      <link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico')}}">
+   
+      <title>Hoan Vu</title>
 </head>
 
 <body>
-      <div>
+      <div class="body">
           <h1>Hi 👋, </h1>
 
           <div class="content">
-            <p>I'm Hoan Vu, a Computer Science student 👨‍💻 at University of Bonn.</p>
+            <p>I'm Hoan Vu, a Computer Science student 👨‍💻 at the University of Bonn.</p>
 
-            <p>I'm fascinated by the potential impacts of Artificial Intelligence on our future. Among other things, I like to use Computer Vision to detect cats 🐱 in photos.  </p>
-            
-            <p>When not studying, I enjoy scrolling Wikipedia and Reddit while listening to my dreampop playlist. </p>
+            <p>I'm fascinated by the potential impact of Artificial Intelligence on our future. Among other things, I like using Computer Vision to detect cats 🐱 in photos.  </p>
 
             <p>I embrace my thoughts on every pleasant moment in life and write them down. One of my stories got published on <a href="https://byrslf.co/some-misconceptions-about-being-ive-encountered-in-vietnam-e8365b35ae91">Be Yourself</a> and <a href="https://buibui.org/gay/">BUIBUI</a>.</p>
           </div>
-
-          <div class="social-icon">
-            <a href="https://github.com/hoanW">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
-                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" fill="currentColor" fill-rule="evenodd"></path>
-                </svg>
-            </a>
-         </div>
-
-          <div class="social-icon">
-              <a href="https://medium.com/@hoanW">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
-                      <path d="M19 24h-14c-2.761 0-5-2.239-5-5v-14c0-2.761 2.239-5 5-5h14c2.762 0 5 2.239 5 5v14c0 2.761-2.237 4.999-5 5zm.97-5.649v-.269l-1.247-1.224c-.11-.084-.165-.222-.142-.359v-8.998c-.023-.137.032-.275.142-.359l1.277-1.224v-.269h-4.422l-3.152 7.863-3.586-7.863h-4.638v.269l1.494 1.799c.146.133.221.327.201.523v7.072c.044.255-.037.516-.216.702l-1.681 2.038v.269h4.766v-.269l-1.681-2.038c-.181-.186-.266-.445-.232-.702v-6.116l4.183 9.125h.486l3.593-9.125v7.273c0 .194 0 .232-.127.359l-1.292 1.254v.269h6.274z" fill="currentColor" fill-rule="evenodd"></path>
-                  </svg>
-              </a>
-          </div>
-
-          <div class="social-icon">
-              <a href="https://www.linkedin.com/in/hoanvietvu">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
-                      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" fill="currentColor" fill-rule="evenodd"></path>
-                  </svg>
-              </a>
-          </div>
-
-          <div class="social-icon">
-            <a href="https://www.xing.de/profile/Hoan_Vu7/cv ">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
-                    <path d="M2.431 3.159c-0.138 0-0.256 0.050-0.316 0.144-0.059 0.1-0.050 0.225 0.013 0.353l1.559 2.7c0.003 0.006 0.003 0.009 0 0.013l-2.45 4.331c-0.063 0.128-0.059 0.256 0 0.353 0.059 0.094 0.163 0.156 0.3 0.156h2.306c0.344 0 0.513-0.234 0.628-0.447 0 0 2.397-4.241 2.491-4.406-0.009-0.016-1.588-2.766-1.588-2.766-0.116-0.203-0.287-0.431-0.644-0.431h-2.3z" fill="currentColor" fill-rule="evenodd"></path>>
-                    <path d="M12.125 0c-0.344 0-0.494 0.216-0.619 0.441 0 0-4.972 8.816-5.134 9.106 0.009 0.016 3.278 6.016 3.278 6.016 0.116 0.203 0.291 0.441 0.644 0.441h2.306c0.137 0 0.247-0.053 0.306-0.147 0.063-0.1 0.059-0.228-0.006-0.356l-3.25-5.947c-0.003-0.006-0.003-0.009 0-0.016l5.109-9.034c0.063-0.128 0.066-0.256 0.006-0.356-0.059-0.094-0.169-0.147-0.306-0.147h-2.334z" fill="currentColor" fill-rule="evenodd"></path>>
-                </svg>
-            </a>
-        </div>
-
-        <div class="social-icon">
-            <a href="mailto:hoanviet.vu@gmail.com">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
-                    <path d="M3.00977 5.83789C3.00977 5.28561 3.45748 4.83789 4.00977 4.83789H20C20.5523 4.83789 21 5.28561 21 5.83789V17.1621C21 18.2667 20.1046 19.1621 19 19.1621H5C3.89543 19.1621 3 18.2667 3 17.1621V6.16211C3 6.11449 3.00333 6.06765 3.00977 6.0218V5.83789ZM5 8.06165V17.1621H19V8.06199L14.1215 12.9405C12.9499 14.1121 11.0504 14.1121 9.87885 12.9405L5 8.06165ZM6.57232 6.80554H17.428L12.7073 11.5263C12.3168 11.9168 11.6836 11.9168 11.2931 11.5263L6.57232 6.80554Z" fill="currentColor" fill-rule="evenodd"></path>
-                </svg>
-            </a>
-        </div>
-
       </div>
+
+<!--Social Media--> 
+     <div class="social-icon">
+        <ul>
+           <li>
+            <a href="https://github.com/hoanW" class="fab fa-github"></a>
+           </li>
+        
+           <li>
+             <a href="https://twitter.com/hoanvietvu" class="fab fa-twitter"></a>
+           </li>
+        
+           <li>
+              <a href="https://medium.com/@hoanW" class= "fab fa-medium"></a>
+           </li>
+        
+           <li>
+              <a href="https://www.linkedin.com/in/hoanvietvu" class="fab fa-linkedin"></a>
+           </li>
+        
+           <li>
+             <a href="https://www.xing.de/profile/Hoan_Vu7/cv" class="fab fa-xing"></a>
+           </li>
+        
+          <li>
+             <a href="https://www.youtube.com/channel/UCcpMcZTakrWKZ0cnp_AFvJg" class="fab fa-youtube"></a>
+          </li>
+        
+          <li>  
+             <a href="mailto:hoanviet.vu@gmail.com" class="fas fa-envelope"></a>
+          </li>
+      </ul>
+   </div>
+   
 </body>
 </html>
